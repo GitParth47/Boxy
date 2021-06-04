@@ -177,7 +177,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff26c58dd4033a3498b29181d661f95b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  In_GameScene: gameScene
+  In_GameScene: GameScene
 --- !u!95 &95847259
 Animator:
   serializedVersion: 3
