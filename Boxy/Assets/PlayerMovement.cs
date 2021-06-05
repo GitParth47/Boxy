@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
 
     private float movement;
     
-    void Update()
+    void FixedUpdate()
     {
         if (isPlayer1)
         {
@@ -22,5 +22,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         rb.velocity = new Vector2(rb.velocity.x, movement * speed);
+
+        
     }
 }
